@@ -1,0 +1,26 @@
+{
+    "model_parameters": {
+        "algorithm": "gradient_boosting",
+        "n_estimators": 100,
+        "learning_rate": 0.1,
+        "max_depth": 5,
+        "random_state": 42
+    },
+    "risk_thresholds": {
+        "very_low_risk": 0.05,
+        "low_risk": 0.1,
+        "moderate_risk": 0.2,
+        "high_risk": 0.3
+    },
+    "interest_rate_parameters": {
+        "base_rate": 3.5,
+        "risk_premium_factor": 0.25
+    },
+    "loan_amount_factors": {
+        "very_low_risk": 0.5,
+        "low_risk": 0.4,
+        "moderate_risk": 0.3,
+        "high_risk": 0.2,
+        "very_high_risk": 0.1
+    }
+}
